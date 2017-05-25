@@ -1,6 +1,9 @@
 .feature .glyphicon{
   font-size: 33px;
 }
+body{
+  padding-top: 70px;
+}
 .footer{
   padding:  20px 0;
   color: #efefef;
@@ -15,3 +18,9 @@ html{
 .footer a{
   color: #9af7fe;
 }
+ @media only screen and (max-width: 768px) {
+   .footer{
+     height: 400px;
+     font-size: 0.7em;
+   }
+ }
